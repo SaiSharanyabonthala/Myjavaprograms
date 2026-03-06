@@ -1,6 +1,6 @@
 @echo off
 :: Change the path below to your actual Java programs folder
-cd /d "C:\Users\YourName\Documents\MyJavaPrograms"
+cd /d "C:\devi\javaprgms\Myjavaprograms"
 
 :: Pull changes first to prevent errors
 git pull origin main
