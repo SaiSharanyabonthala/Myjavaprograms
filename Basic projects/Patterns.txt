@@ -19,3 +19,25 @@ public class Main {
      sol.Pattern1(n);
     }
 }
+
+
+*****
+****
+***
+**
+*
+public class Main {
+    public void Pattern1(int n){
+        for (int i=0;i<=n;i++){
+            for(int j=i;j<n;j++){
+            System.out.print("*");
+        }
+            System.out.println();
+        }
+    }
+    public static void main(String[] args) {
+        Main sol=new Main();
+        int n=5;
+     sol.Pattern1(n);
+    }
+}
