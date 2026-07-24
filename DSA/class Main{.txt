@@ -1,0 +1,22 @@
+class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int M=sc.nextInt();
+int X=sc.nextInt();
+int Y=sc.nextInt();
+int[] cops=new int[M];
+for(int i=0;i < M;i++){
+cops[i]=sc.nextInt();
+}
+int[] vis=new int[101];
+int dist=X*Y;
+for(int i=0;i<M;i++){
+int start =Math.max(1,cops[i]-dist);
+int end=Math.min(100,cops[i]+dist);
+for(int j=start;j<=end;j++){
+vis[j]=1;
+}}
+int safe=0;
+for(int i=0;i<=100;i++){
+if(vis[i]==0)safe++;
+}}
