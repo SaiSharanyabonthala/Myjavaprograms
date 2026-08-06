@@ -1,0 +1,16 @@
+JVM-Java Virtual Machina
+Java-1995(James Gosling),now java belongs to oracle
+In IDE,we can run,compile and debug the code.
+ex of IDE:Vs code,Jupyter,Intell IDE,NET BEANS
+For using simple terms we use Jshell,But to create a project we need to use IDE
+Java is platform independent,as Java runs on JVM and JVM is platform-dependent
+JVM reads data in the form of Byte Code and compiler does this using ".class" method
+JRE-Java Runtime Environment,it contains libraries and JVM is part of JRE 
+Semicolon are represented as blocks
+For Primitive data types we use:
+Integer---byte, short, int ,long
+Float---double,float
+Character--- using alphabets ,should be only in dowble or single quotes etc
+Boolean--- True/False
+for float and doble at last of the digit we need to mention l,d
+ 
